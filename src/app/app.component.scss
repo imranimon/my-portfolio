@@ -1,0 +1,101 @@
+.round-image {
+  border-radius: 50%;
+  width: 220px;
+  height: 200px;
+}
+
+#my-name {
+  color: #098cab;
+  font-weight: 400;
+}
+
+#animatedText {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+#animatedText:after {
+  content: '|';
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.my-container {
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.my-container a {
+  text-decoration: none; /* This removes the underline */
+  color: inherit; /* This ensures the link has the same color as surrounding text */
+}
+
+.my-container a:hover {
+  text-decoration: underline; /* This adds the underline when hovered */
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons img {
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1); /* adds a zoom effect on hover */
+}
+
+.icon {
+  color: #605f5f;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: #007bff;
+}
+
+.social-icons fa-icon.icon {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.text-email a {
+  text-decoration: none;
+  color: #605f5f;
+  transition: color 0.3s;
+}
+
+.text-email a:hover {
+  color: #007bff;
+}
+
