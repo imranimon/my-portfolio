@@ -12,3 +12,5 @@ Welcome to my personal portfolio repository. This portfolio showcases my skills 
 
 - **Frontend:** Angular
 - **Icons:** Font Awesome
+
+### Live -
