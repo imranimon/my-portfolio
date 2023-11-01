@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/md-imran-hossain-imon",
+    "public": "dist/my-simple-protfolio",
     "ignore": [
       "firebase.json",
       "**/.*",
